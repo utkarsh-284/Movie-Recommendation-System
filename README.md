@@ -1,13 +1,13 @@
 # Movie Recommendation System
 
-A web-based movie recommender system built with FastAPI and FAISS, providing content-based movie recommendations using precomputed embeddings and a trained model.
+A web-based movie recommender system built with FastAPI and FAISS, providing content-based movie recommendations using trasfer learnings from transformers model and leveraging NLP techniques for better recommendations.
 
 ---
 
 ## 🚀 Features
 - **Web UI**: Simple, interactive web interface for movie recommendations.
 - **Content-Based Filtering**: Uses movie metadata and embeddings for recommendations.
-- **Pretrained Model**: Fast, efficient recommendations using a precomputed FAISS index.
+- **Finetuned Model**: Fast, efficient recommendations using a pretrained model and finetuning it on more than 100K movies' data.
 - **Dockerized**: Easy deployment with Docker and Docker Compose.
 - **Prebuilt Docker Image**: No need to download model/data files separately—just pull and run!
 
@@ -95,7 +95,8 @@ docker-compose up --build
 ## 📁 Model & Data Files
 - **Not included in repo:** `.joblib`, `.pkl`, `.csv` files (see `app/data/` and `Model/`)
 - **How to obtain:**
-  - [Provide a download link here, or instructions for requesting the files.]
+  - Download data from [TMDB Movies Dataset](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies?utm_source=www.askdatadawn.com&utm_medium=referral&utm_campaign=25-not-boring-data-portfolio-project-ideas), and place it in `Model/` folder.
+  - Run the code in the notebooks, you will able to get the model.
   - Place `movie_recommender_v02.joblib` in `app/data/` before running (not needed if using the prebuilt Docker image).
 - **For retraining:**
   - See Jupyter notebooks in `Model/` for data processing and model building.
@@ -132,4 +133,11 @@ A: Yes! See the notebooks in `Model/` for retraining and generating your own `.j
 ---
 
 ## 📬 Contact
-For questions or access to model/data files, please open an issue or contact the maintainer.
+**Utkarsh Bhardwaj**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Utkarsh284-blue)](https://www.linkedin.com/in/utkarsh284/)
+[![GitHub](https://img.shields.io/badge/GitHub-utkarsh--284-lightgrey)](https://github.com/utkarsh-284)
+
+**Contact:** ubhardwaj284@gmail.com
+
+**Publish Date:** 16th July, 2025
